@@ -1,0 +1,32 @@
+name: flutter_pinjam_ruang
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  carousel_slider: ^4.0.0
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/gambarlogin.png
+  fonts:
+    - family: SakkalR
+      fonts:
+        - asset: assets/fonts/SakkalR.ttf
